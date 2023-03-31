@@ -1,2 +1,2 @@
-FROM dind:20.10.23
+FROM docker:20.10.23
 
