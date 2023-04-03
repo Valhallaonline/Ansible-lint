@@ -18,7 +18,7 @@ RUN python3 -m venv $VIRTUAL_ENV
 ENV PATH="$VIRTUAL_ENV/bin:$PATH"
 
 # Copy requiremnts file to container
-COPY requirements.txt
+COPY requirements.txt .
 
 # Upgrade pip
 RUN python -m pip install --upgrade pip
