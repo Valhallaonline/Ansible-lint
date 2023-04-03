@@ -9,7 +9,8 @@ gcc \
 musl-dev \
 cargo \
 openssl-dev \
-make
+make \
+libffi-dev
 
 #Create virtual environment
 ENV VIRTUAL_ENV=/opt/venv
