@@ -11,7 +11,8 @@ cargo \
 openssl-dev \
 make \
 libffi-dev \
-git
+git \
+rsync
 
 # Create virtual environment
 ENV VIRTUAL_ENV=/opt/venv
