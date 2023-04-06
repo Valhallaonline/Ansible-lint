@@ -10,7 +10,8 @@ musl-dev \
 cargo \
 openssl-dev \
 make \
-libffi-dev
+libffi-dev \
+git
 
 # Create virtual environment
 ENV VIRTUAL_ENV=/opt/venv
