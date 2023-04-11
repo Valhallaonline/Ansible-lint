@@ -22,9 +22,7 @@ ENV PATH="$VIRTUAL_ENV/bin:$PATH"
 # Copy requiremnts file to container
 COPY requirements.txt .
 
-RUN mkdir ~/.ssh/ && echo $'Host * \n\
-    StrictHostKeyChecking no' > ~/.ssh/ssh_config
+RUN mkdir ~/.ssh/ && echo $'Host * \n   StrictHostKeyChecking no' >> /etc/ssh/ssh_config
 
 # Install python dependancies from requirements file
 RUN python -m pip install --upgrade pip && python -m pip install -r requirements.txt
-
