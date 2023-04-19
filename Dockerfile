@@ -1,4 +1,4 @@
-FROM docker:20.10.23
+FROM docker:20.10.23-dind
 
 # Install packages required for python and molecule
 RUN apk add --no-cache \
