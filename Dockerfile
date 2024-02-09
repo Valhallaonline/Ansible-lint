@@ -1,5 +1,11 @@
 FROM docker:20.10.23
 
+LABEL description="Minimal alpine image for ansible role testing with molecule" \
+      maintainer="Gareth 'Gaz' Jones <gareth@valhallaonline.info>" \
+      org.opencontainers.image.description="Minimal alpine image for ansible role testing with molecule" \
+      org.opencontainers.image.authors="Gareth 'Gaz' Jones, gareth@valhallaonline.info" \
+      org.opencontainers.image.source="https://github.com/Valhallaonline/Ansible-lint/pkgs/container/ansible-lint/"
+
 # Install packages required for python and molecule
 RUN apk add --no-cache \
 python3 \
