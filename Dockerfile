@@ -10,6 +10,7 @@ LABEL description="Minimal alpine image for ansible role testing with molecule" 
 RUN apk add --no-cache \
 python3 \
 python3-dev \
+python3-devel \
 py3-pip \
 gcc \
 musl-dev \
