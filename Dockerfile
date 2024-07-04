@@ -18,6 +18,7 @@ openssl-dev \
 make \
 libffi-dev \
 git \
+oniguruma-dev \
 rsync
 
 # Create virtual environment
