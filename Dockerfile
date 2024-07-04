@@ -1,4 +1,4 @@
-FROM docker:20.10.23
+FROM docker:26.1.3
 
 LABEL description="Minimal alpine image for ansible role testing with molecule" \
       maintainer="Gareth 'Gaz' Jones <gareth@valhallaonline.info>" \
